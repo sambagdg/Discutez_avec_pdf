@@ -166,8 +166,3 @@ function Chat({ id }: { id: string }) {
   );
 }
 export default Chat;
-
-// messages.map((message) => (
-//               <div key={message.id}>
-//                 <p>{message.message}</p>
-//               </div>
