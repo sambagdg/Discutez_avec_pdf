@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Button } from "@/components/ui/button";
 import { SignedIn } from "@clerk/nextjs";
-import chatImg from "../public/chat_image.png";
+import chatImg from "../public/chat_Image.png";
 import {
   BrainCogIcon,
   EyeIcon,
