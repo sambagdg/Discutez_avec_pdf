@@ -11,7 +11,7 @@ function Header() {
         href="/dashboard"
         className="text-2xl"
       >
-        Chat avec <span className="text-blue-600">PDF</span>
+        Discutez avec <span className="text-blue-600">PDF</span>
       </Link>
 
       <SignedIn>

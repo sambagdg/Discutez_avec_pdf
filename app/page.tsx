@@ -2,6 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Button } from "@/components/ui/button";
 import { SignedIn } from "@clerk/nextjs";
+import chatImg from "../public/chat_image.png";
 import {
   BrainCogIcon,
   EyeIcon,
@@ -68,16 +69,14 @@ export default function Home() {
 
             <p className="mt-6 text-lg leading-8 text-gray-500">
               Introduction{" "}
-              <span className="font-bold text-blue-600">
-                Discutez avec Votre PDF
-              </span>
+              <span className="font-bold text-blue-600">Discutez avec PDF</span>
               <br />
               <br />
               Téléchargez votre document et notre chatbot répondra à vos
               questions, résumera le contenu et répondra à toutes vos questions.
               Idéal pour tous,{" "}
               <span className="font-bold text-blue-600">
-                Discutez avec Votre PDF
+                Discutez avec PDF
               </span>{" "}
               transforme les documents statiques en{" "}
               <span className="font-bold">conversations dynamiques </span>
@@ -104,7 +103,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <Image
               alt="app screenshot"
-              src="https://i.imgur.com/VciRSTI.jpeg"
+              src={chatImg}
               width={2432}
               height={1642}
               className="mb-[-0%] rounded-xl shadow-2xl ring-1 ring-gray-900/10 border-x-2 border-blue-600"
