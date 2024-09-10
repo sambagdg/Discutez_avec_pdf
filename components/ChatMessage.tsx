@@ -44,5 +44,4 @@ function ChatMessage({ message }: { message: Message }) {
     </div>
   );
 }
-
 export default ChatMessage;
